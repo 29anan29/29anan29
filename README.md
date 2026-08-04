@@ -11,7 +11,7 @@
 🇨🇳 中国学生 · 热爱底层编程与 AI 应用 · 用 Go 从零构建编程语言  
 🇬🇧 Chinese student · Low-level & AI · Building my own language in Go
 
-| 🔥 当前在做 | 用 **Go** 编写自己的编程语言（编译器 / 虚拟机） |
+| 🔥 当前在做 | 用 **Go** 编写自己的编程语言 |
 | :--- | :--- |
 | ⚡ 技术栈 | Go · Python · TypeScript · React |
 | 🧠 兴趣方向 | 语言设计 · 分布式系统 · LLM 编排 |
