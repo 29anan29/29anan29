@@ -13,10 +13,9 @@
 **中国学生** · 专注于用代码优化生活流程 · 相信效率至上  
 Student Developer · Automating life with Go & Rust · Efficiency obsessed
 
-| 🔥 当前在做 | 用 **Go** 和 **Rust** 编写解决实际问题的效率工具 |
+| 核心语言 | Go |
 | :--- | :--- |
 | 主力环境 | Linux (Daily Driver) |
-| 核心语言 | Go |
 | 联系 | **anwang13@outlook.com** |
 
 skills
