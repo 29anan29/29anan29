@@ -8,17 +8,16 @@
 
 ---
 
-### 👨‍💻 关于我 ｜ About Me
+### 关于我 ｜ About Me
 
-🇨🇳 **中国学生** · 专注于用代码优化生活流程 · 相信效率至上  
-🇬🇧 Student Developer · Automating life with Go & Rust · Efficiency obsessed
+**中国学生** · 专注于用代码优化生活流程 · 相信效率至上  
+Student Developer · Automating life with Go & Rust · Efficiency obsessed
 
 | 🔥 当前在做 | 用 **Go** 和 **Rust** 编写解决实际问题的效率工具 |
 | :--- | :--- |
-| 💻 主力环境 | Linux (Daily Driver) |
-| ⚙️ 核心语言 | Go · Rust |
-| 🎯 目标 | 消灭重复劳动 · 打造顺手的跨平台 CLI 工具 |
-| 📫 联系 | **anwang13@outlook.com** |
+| 主力环境 | Linux (Daily Driver) |
+| 核心语言 | Go |
+| 联系 | **anwang13@outlook.com** |
 
 skills
 ---
@@ -30,18 +29,6 @@ skills
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" /></a>
 <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" /></a>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" /></a>
-</p>
-
----
-
-### 🚀 我的信条 ｜ My Vibe
-
-> **能用脚本自动化的，绝不留给双手。**
-> Write once, automate everywhere.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Built_with-Go_&_Rust-00ADD8?style=for-the-badge&logo=rust" />
-  <img src="https://img.shields.io/badge/Cross--platform-333?style=for-the-badge&logo=gnome" />
 </p>
 
 ---
