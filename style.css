@@ -1,0 +1,127 @@
+:root {
+  color-scheme: light dark;
+  --fg: #111;
+  --bg: #fff;
+  --muted: #555;
+  --link: #0000ee;
+  --rule: #d0d0d0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #dcdcdc;
+    --bg: #111;
+    --muted: #8a8a8a;
+    --link: #8ab4f8;
+    --rule: #333;
+  }
+}
+
+html { background: var(--bg); }
+
+body {
+  margin: 0;
+  color: var(--fg);
+  background: var(--bg);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* ---------- intro ---------- */
+
+#intro {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  cursor: pointer;
+  transition: opacity 0.9s ease, visibility 0s;
+}
+
+#intro .hello {
+  margin: 0;
+  font-family: "Great Vibes", "Snell Roundhand", "Apple Chancery",
+               "Segoe Script", "Bradley Hand", cursive;
+  font-weight: 400;
+  font-size: clamp(5rem, 20vw, 13rem);
+  line-height: 1.15;
+  color: var(--fg);
+  text-align: center;
+  animation: fade-up 1.6s cubic-bezier(.22,.61,.36,1) both;
+}
+
+#intro .name {
+  margin: 2rem 0 0;
+  font-size: 1rem;
+  color: var(--muted);
+  animation: fade-up 1.6s cubic-bezier(.22,.61,.36,1) 0.35s both;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---------- states ---------- */
+
+html.locked,
+html.locked body {
+  height: 100%;
+  overflow: hidden;
+}
+
+html.revealed #intro {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.9s ease, visibility 0s 0.9s;
+}
+
+/* ---------- main ---------- */
+
+main {
+  max-width: 34em;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 5rem;
+  opacity: 0;
+  transition: opacity 1.2s ease 0.3s;
+}
+
+html.revealed main { opacity: 1; }
+
+h1 { font-size: 1.5rem; margin: 0 0 1.5rem; }
+
+h2 {
+  font-size: 1.1rem;
+  margin: 3rem 0 1rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+a { color: var(--link); }
+
+dt { margin-top: 1.25rem; }
+
+dd {
+  margin: 0.2rem 0 0 1.5rem;
+  color: var(--muted);
+}
+
+ul { padding-left: 1.25rem; }
+li { margin: 0.35rem 0; }
+
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
