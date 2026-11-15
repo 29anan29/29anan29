@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00ADD8&center=true&vCenter=true&width=800&lines=Hi+there!+I'm+29anan29;Go+%26+Rust+Developer;Solving+Life+with+Code;Cross-platform+Automation" alt="Typing SVG" />
   <br />
   <!-- 访客统计 -->
-  <img src="https://komarev.com/ghpvc/?username=29anan29&color=00ADD8&style=flat-square&label=Profile+Views" alt="visitors" />
+  <!-- <img src="https://komarev.com/ghpvc/?username=29anan29&color=00ADD8&style=flat-square&label=Profile+Views" alt="visitors" /> -->
 </div>
 
 ---
